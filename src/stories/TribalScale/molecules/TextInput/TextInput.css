@@ -1,0 +1,14 @@
+.tribalscale-textinput {
+  border-style: solid;
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: white;
+  outline: none;
+  width: "100%";
+}
+
+.tribalscale-textinput--active,
+.tribalscale-textinput--active:focus {
+  border-color: rgb(128, 119, 79);
+  background-color: rgb(235, 232, 221);
+}

@@ -1,0 +1,36 @@
+.tribalscale-button {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-width: 0.25rem;
+  border-style: solid;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.tribalscale-button--primary {
+  border-color: rgb(128, 119, 79);
+  color: black;
+  background-color: white;
+}
+.tribalscale-button--media {
+  color: white;
+  background-color: rgb(128, 119, 79);
+  border-color: rgb(128, 119, 79);
+}
+.tribalscale-button--disabled {
+  border-color: rgb(128, 119, 79);
+  opacity: 0.5;
+}
+.tribalscale-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.tribalscale-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.tribalscale-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

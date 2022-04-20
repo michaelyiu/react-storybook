@@ -1,0 +1,50 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs/blocks";
+import { Swatches, Swatch } from "../Swatch/Swatch";
+import { colors } from "./shared/styles";
+
+<Meta title="Colors" />
+
+# Colors
+
+<h2>Neutral</h2>
+
+<Swatches>
+  {Object.entries(colors.neutral).map(([key, value], index) => {
+    return <Swatch name={key} value={value} />;
+  })}
+</Swatches>
+
+<h2>Primary</h2>
+<Swatches>
+  {Object.entries(colors.primary).map(([key, value], index) => {
+    return <Swatch name={key} value={value} />;
+  })}
+</Swatches>
+
+<h2>Secondary</h2>
+<Swatches>
+  {Object.entries(colors.secondary).map(([key, value], index) => {
+    return <Swatch name={key} value={value} />;
+  })}
+</Swatches>
+
+<h2>Success</h2>
+<Swatches>
+  {Object.entries(colors.success).map(([key, value], index) => {
+    return <Swatch name={key} value={value} />;
+  })}
+</Swatches>
+
+<h2>Warning</h2>
+<Swatches>
+  {Object.entries(colors.warning).map(([key, value], index) => {
+    return <Swatch name={key} value={value} />;
+  })}
+</Swatches>
+
+<h2>Error</h2>
+<Swatches>
+  {Object.entries(colors.error).map(([key, value], index) => {
+    return <Swatch name={key} value={value} />;
+  })}
+</Swatches>
