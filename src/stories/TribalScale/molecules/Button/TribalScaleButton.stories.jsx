@@ -16,8 +16,6 @@ export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
   label: "Button1",
-  // backgroundColor: "blue",
-  // borderColor: "red",
 };
 
 export const Media = Template.bind({});
